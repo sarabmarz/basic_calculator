@@ -4,8 +4,11 @@
 
 <p align="center">
   <a href="#key-features">Application Features</a> •
-  <a href="#Techs-used">What Was Used?</a> •
-  <a href="#license">License</a>
+  <a>What Was Used</a> •
+  <a>License</a>
 </p>
 
+# Preview of the application
+
+https://user-images.githubusercontent.com/132011413/235322169-8157168f-0739-47c1-b092-dc8c4ccb1754.mp4
 
