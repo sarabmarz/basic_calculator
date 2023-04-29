@@ -10,5 +10,8 @@
 
 # Preview of the application
 
-https://user-images.githubusercontent.com/132011413/235322169-8157168f-0739-47c1-b092-dc8c4ccb1754.mp4
-
+<div style="text-align:center;">
+    <iframe width="420" height="420" class="video" 
+src="https://user-images.githubusercontent.com/132011413/235322169-8157168f-0739-47c1-b092-dc8c4ccb1754.mp4">
+</iframe>
+ </div>
