@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="paneParent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="273.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.Controlador">
+    <TextField fx:id="txtResultado" alignment="CENTER_RIGHT" disable="true" layoutX="4.0" layoutY="79.0" opacity="0.67" prefHeight="77.0" prefWidth="265.0" style="-fx-background-radius: 0;" text="0">
+        <font>
+            <Font size="36.0" />
+        </font>
+    </TextField>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="4.0" layoutY="267.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="7" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="71.0" layoutY="267.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="8" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="138.0" layoutY="267.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="9" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button fx:id="btSUBTRACAO" cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="205.0" layoutY="214.0" mnemonicParsing="false" onAction="#clickOperation" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #1f274c;" text="-" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="4.0" layoutY="320.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="4" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="71.0" layoutY="320.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="5" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="71.0" layoutY="373.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="2" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="138.0" layoutY="320.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="6" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="4.0" layoutY="373.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="1" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="138.0" layoutY="373.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="3" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button fx:id="btIGUAL" cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="205.0" layoutY="320.0" mnemonicParsing="false" onAction="#clickOperation" pickOnBounds="false" prefHeight="156.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #094c72;" text="=" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button fx:id="btSOMA" cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="205.0" layoutY="267.0" mnemonicParsing="false" onAction="#clickOperation" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #1f274c;" text="+" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="4.0" layoutY="426.0" mnemonicParsing="false" onAction="#clickBtn" pickOnBounds="false" prefHeight="50.0" prefWidth="131.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="0" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="138.0" layoutY="426.0" mnemonicParsing="false" onAction="#btnVirg" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #191c2f;" text="." textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="4.0" layoutY="161.0" mnemonicParsing="false" onAction="#btnApag" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #1f274c;" text="◁" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="24.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="71.0" layoutY="161.0" mnemonicParsing="false" onAction="#resetNumbers" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #1f274c;" text="CE" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button fx:id="btDIVISAO" cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="138.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOperation" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #1f274c;" text="/" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="22.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+    <Button fx:id="btMULTIPLICACAO" cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="205.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOperation" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #1f274c;" text="x" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+        <effect>
+            <Blend />
+        </effect>
+        <cursor>
+            <Cursor fx:constant="DEFAULT" />
+        </cursor>
+    </Button>
+   <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="138.0" layoutY="214.0" mnemonicParsing="false" onAction="#btnNeg" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #1f274c;" text="+/-" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font size="18.0" />
+      </font>
+      <effect>
+         <Blend />
+      </effect>
+      <cursor>
+         <Cursor fx:constant="DEFAULT" />
+      </cursor>
+   </Button>
+   <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="4.0" layoutY="214.0" mnemonicParsing="false" onAction="#btnQuad" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #1f274c;" text="x² " textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font size="18.0" />
+      </font>
+      <effect>
+         <Blend />
+      </effect>
+      <cursor>
+         <Cursor fx:constant="DEFAULT" />
+      </cursor>
+   </Button>
+   <Button cache="true" depthTest="ENABLE" focusTraversable="false" layoutX="71.0" layoutY="214.0" mnemonicParsing="false" onAction="#btnPerc" pickOnBounds="false" prefHeight="50.0" prefWidth="64.0" style="-fx-background-radius: 0; -fx-background-color: #1f274c;" text="\%" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font size="18.0" />
+      </font>
+      <effect>
+         <Blend />
+      </effect>
+      <cursor>
+         <Cursor fx:constant="DEFAULT" />
+      </cursor>
+   </Button>
+   <TextField fx:id="txtHistory" disable="true" layoutX="4.0" layoutY="33.0" opacity="0.47" prefHeight="44.0" prefWidth="265.0" style="-fx-background-radius: 0;" text="⌛">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </TextField>
+   <Button fx:id="btnClose" layoutX="244.0" layoutY="4.0" mnemonicParsing="false" onAction="#clickBtnClose" style="-fx-background-color: transparent;" text="✘" textFill="#094c72">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor></Button>
+   <Button fx:id="btnMinimize" layoutX="217.0" layoutY="4.0" mnemonicParsing="false" onAction="#ClickBtnMinimize" style="-fx-background-color: transparent;" text="━" textFill="#094c72">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor></Button>
+   <ImageView fitHeight="27.0" fitWidth="22.0" layoutX="4.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../img/11.png" />
+      </image>
+   </ImageView>
+   <Text styleClass="txtNome" id="txtNome" fx:id="txtNome" fill="#191c2f" layoutX="68.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" >
+   </Text>
+</Pane>
