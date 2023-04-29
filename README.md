@@ -1,2 +1,11 @@
 # basic_calculator
-As an academic endeavor, this basic calculator was constructed with Java, JavaFX, and SceneBuilder. 
+
+<h4 align="center">A basic calculator created using JavaFX. It supports basic arithmetic operations.</h4>
+
+<p align="center">
+  <a href="#key-features">Application Features</a> •
+  <a href="#Techs-used">What Was Used?</a> •
+  <a href="#license">License</a>
+</p>
+
+
