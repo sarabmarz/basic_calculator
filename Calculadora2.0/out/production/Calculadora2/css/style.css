@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'OpenSans_Regular';
-    src: url("../font/OpenSans_Regular.ttf");
-}
-.txtNome{
-    -fx-font-family: 'OpenSans_Regular';
-}
