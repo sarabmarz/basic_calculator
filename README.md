@@ -2,6 +2,8 @@
 
 <h4 align="center">A basic calculator created using JavaFX. It supports basic arithmetic operations.</h4>
 
+<h4 align="center">This project uses Java, <a href="https://openjfx.io/">rJavaFX</a> and <a href="https://gluonhq.com/products/scene-builder/">Scenebuilder.</h4>
+
 <p align="center">
   <a href="#key-features">Application Features</a> •
   <a>What Was Used</a> •
