@@ -10,5 +10,5 @@
 </div>
 
 ## License
-Copyright © 2023 [Sara B. Marcelino](https://github.com/sarabmarz). <br />
+Copyright © 2023 [Saara](https://github.com/sarabmarz). <br />
 This project is [MIT](https://github.com/avneesh0612/next-progress-bar/blob/main/LICENSE) licensed.
